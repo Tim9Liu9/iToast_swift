@@ -161,8 +161,7 @@ class ViewController: UIViewController {
         // 给按钮绑定单击的监听器
         btn_custon.addTarget(self, action: Selector("btnClick:"), forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(btn_custon)
-        _y = CGRectGetMaxY(btn_custon.frame)
-        
+                
     }
     
     func btnClick(btn : UIButton)
